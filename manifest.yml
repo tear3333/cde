@@ -1,7 +1,7 @@
 ---
 applications:
 - name: agar-clone
-  memory: 512M
+  memory: 256M
   disk_quota: 1G
   buildpack: nodejs_buildpack
   host: agar-clone
