@@ -1,9 +1,8 @@
 ---
 applications:
 - name: agar-clone
-  memory: 256M
+  memory: 526M
   disk_quota: 1G
-  buildpack: nodejs_buildpack
   host: agar-clone
   domain: mybluemix.net
   command: node server/index.js
