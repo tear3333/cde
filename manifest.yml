@@ -1,7 +1,7 @@
 ---
 applications:
 - name: agar-clone
-  memory: 526M
+  memory: 256M
   disk_quota: 1G
   host: agar-clone
   domain: mybluemix.net
