@@ -5,6 +5,7 @@ applications:
   disk_quota: 1G
   host: agar-clone
   domain: mybluemix.net
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   command: node server/index.js
   timeout: 180
   env:
