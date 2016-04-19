@@ -5,8 +5,7 @@ applications:
   disk_quota: 1G
   host: agar-clone
   domain: mybluemix.net
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
-  command: node server/index.js
+  command: start_gameserver.bat
   timeout: 180
   env:
     NPM_CONFIG_PRODUCTION: false
